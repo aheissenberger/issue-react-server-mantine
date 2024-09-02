@@ -1,4 +1,4 @@
-import { Button } from "@mantine/core";
+import { Button } from "../components/mantine"
 
 export default function Home() {
     return (
