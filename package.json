@@ -1,0 +1,25 @@
+{
+  "name": "rs-mantine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+   "dev": "pnpm exec react-server",
+    "build": "pnpm exec react-server build",
+    "start": "pnpm exec react-server start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@lazarv/react-server": "0.0.0-experimental-ad417f4-20240831-5a91fe57",
+    "@lazarv/react-server-router": "0.0.0-experimental-8a911c7-20240831-2211891a",
+    "@mantine/core": "^7.12.2",
+    "@mantine/hooks": "^7.12.2"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.43",
+    "postcss-preset-mantine": "^1.17.0",
+    "postcss-simple-vars": "^7.0.1"
+  }
+}
